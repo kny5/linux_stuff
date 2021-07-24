@@ -97,9 +97,22 @@
 <h1 id="commands">Commands</h1>
 <h2 id="utilities">Utilities</h2>
 <h3 id="extract-targz-files">Extract tar.gz files</h3>
-<p>'''
-tar -xzvf file.tar.gz
-'''</p></div>
+<ol>
+<li>Under the tar.gz file contained directory:</li>
+</ol>
+<pre><code>tar -xzvf file.tar.gz
+</code></pre>
+<h3 id="deploy-mkdocs-to-github-pages">Deploy mkdocs to github pages</h3>
+<ol>
+<li>Set repository as public in the settings tab<ul>
+<li><img alt="Upload_this_image_please" src="../../images/misc/commands/github_01.jpg" /></li>
+</ul>
+</li>
+<li>Execute this command in the repository parent directory:<ul>
+<li><code>python -m mkdocs gh-deploy</code></li>
+</ul>
+</li>
+</ol></div>
             </div>
         </div>
 
